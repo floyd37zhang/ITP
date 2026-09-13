@@ -1,0 +1,21 @@
+# 虚拟环境
+**/.venv/
+**/venv/
+
+# python 缓存
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 环境变量、本地配置
+.env
+*.env
+
+# vscode 本地机器配置
+.vscode/*.log
+.vscode/.cache
+
+# 日志文件
+**/*.log
+

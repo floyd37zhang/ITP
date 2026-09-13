@@ -1,0 +1,11 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/common/src",
+        "${workspaceFolder}/project_a/src",
+        "${workspaceFolder}/project_b/src"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "files.exclude": {
+        "**/.venv": true
+    }
+}
