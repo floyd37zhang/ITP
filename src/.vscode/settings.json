@@ -1,6 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "${workspaceFolder}/common/src",
+        "${workspaceFolder}/src/lib",
         "${workspaceFolder}/project_a/src",
         "${workspaceFolder}/project_b/src"
     ],

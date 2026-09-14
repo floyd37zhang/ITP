@@ -9,7 +9,7 @@ from typing import Any, Iterable, Optional, Sequence
 import pymysql
 import pymysql.cursors
 
-from .config import MySQLConfig
+from .mysql_config import MySQLConfig
 from .exceptions import (
     ConnectionError,
     MySQLClientError,
