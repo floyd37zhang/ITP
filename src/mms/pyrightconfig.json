@@ -1,0 +1,12 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/.venv*",
+        "**/__pycache__", "**/node_modules", "**/.*", ".venv-mms"
+    ],
+    "extraPaths": [
+        "../"
+    ]
+}

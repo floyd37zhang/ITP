@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "src/lib"
+		},
+		{
+			"path": "src/mms"
+		}
+	],
+	"settings": {}
+}
