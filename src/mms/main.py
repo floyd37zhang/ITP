@@ -91,9 +91,9 @@ def _build_app(config: AppConfig) -> tuple[FastAPI, FileScanner, FileWatcher | N
     if config.enable_watcher:
         watcher = FileWatcher(
             watch_paths=config.scan_paths,
-            on_created=scanner.scan_once,
-            on_modified=scanner.scan_once,
-            on_deleted=scanner.scan_once,
+            on_created=lambda _p: (scanner.scan_once(), None)[1],
+            on_modified=lambda _p: (scanner.scan_once(), None)[1],
+            on_deleted=lambda _p: (scanner.scan_once(), None)[1],
         )
 
     @app.on_event("startup")
